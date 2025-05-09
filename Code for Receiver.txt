@@ -1,13 +1,3 @@
-/*
-  This program receives the message from
-  the transmitter and  moves the car
-  accordingly.
-
-  This program is made by Shreyas for
-  Electronics Champ YouTube Channel.
-  Please subscribe to this channel
-  Thank  You
-*/
 
 //Include the libraries
 #include <SPI.h>
@@ -21,7 +11,7 @@ int leftMotorBackward = 3;
 int rightMotorForward = 4;
 int rightMotorBackward  = 5;
 String message;
-const static uint8_t RADIO_ID = 0;       // Our radio's  id.  The transmitter will send to this id.
+const static uint8_t RADIO_ID = 0;       
 const static uint8_t PIN_RADIO_CE  = 7;
 const static uint8_t PIN_RADIO_CSN = 8;
 
