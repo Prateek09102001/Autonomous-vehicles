@@ -1,16 +1,3 @@
-/*
-  This program identifies the tilt position
-  of MPU6050 and   assigns a value based on
-  the position.
-
-  This value is sent to the receiver   module
-  through NRF24L01
-
-  This program is made by Shreyas for
-  Electronics   Champ YouTube Channel.
-  Please subscribe to this channel
-  Thank You
-*/
 
 //Include   the libraries
 #include <Wire.h>
